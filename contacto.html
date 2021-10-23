@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Games</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500&family=Hind+Siliguri:wght@300;500&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+            <div class="Barra">
+                <a href="/">
+                    <p>House of games</p>
+                </a>
+                <div class="mobile-menu">
+                    <a href="#Navegación">
+                        <img src="img/barranav.png" alt="">
+                    </a>
+                </div>
+                <nav id="navegacion" class="navegación">
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="anuncios.html">Anuncios</a></li>
+                    </ul>
+                </nav>
+    </header>
+
+    <form action="">
+        <fieldset>
+            <legend> Formulario Consulta</legend>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" placeholder="Ingresa tu nombre" required>
+            <br> <!-- br como provisorio -->
+            <label for="apellido"> Apellido</label>
+            <input type="text" name="apellido" placeholder="Ingresa tu apellido" required>
+
+
+
+            <label for="Producto"> </label>
+            
+            <select name="Producto" id="">
+                <option value=""> Seleccioná tu Producto</option>
+                <option value="s"> PlayStation</option>
+                <option value="m"> Xbox</option>
+                <option value="l">Nintendo</option>
+            </select>
+
+            
+            
+
+
+            
+
+            <label for="cosulta"> Escribí tu consulta</label>
+            
+
+            <textarea name="consulta" id="" cols="30" rows="5" maxlength="500"></textarea>
+
+            <div> Artículos</div>
+            <input type="checkbox" name="cbox1"> Juegos
+            <input type="checkbox" name="cbox2"> Consolas
+            <input type="checkbox" name="cbox3"> Accesorios
+
+
+            <input type="submit" value="Enviá tu consulta">
+            <input type="reset" value="Limpiar formulario">
+            <input type="button" value="No hago nada">
+
+
+
+
+
+        </fieldset>
+    </form>
+
+
+
+
+
+    <p> Tabla de productos </p>
+
+    <section class="grid">
+
+    <table border="1">
+        
+        <tr>
+            <!-- inicio de fila-->
+            <th>Producto</th>
+            <th>Caracteristicas</th>
+            <th>Precio</th>
+        </tr> <!-- cierre de fila -->
+        <tr>
+            <!-- inicio de fila-->
+            <td>Consolas<ol>
+                    <li> PlayStation5</li>
+                    <li>Xbox 360</li>
+                    <li>Nintendo Switch</li>
+                </ol>
+            </td>
+
+            <td>Características
+                <ol>
+                    <li>Las técnicas mejoradas de ampliación en esta consola de escala pueden aumentar las resoluciones de juego para aproximarse a 4K</li>
+                    <li>La XBox 360 está gobernada por una CPU basada en PowerPC y diseñada por IBM. Esta CPU funciona a a 3.2 GHz y consta de tres núcleos simétricos que pueden ejecutar dos hilos por hardware cada uno. Incorpora 512 MB de RAM de tipo GDDR3 a 700 Mhz, que le proporcionan un ancho de banda a memoria de 22.4 Gbps</li>
+                    <li>La consola Nintendo Switch está diseñada para cualquier estilo de vida, transformándose rápidamente de una consola casera a una consola portátil.</li>
+                </ol>
+            </td>
+            <td>
+                
+                <ol>
+                    <li>$150.000</li>
+                    <li>$90.000</li>
+                    <li>$90.000</li>
+                </ol>
+            </td>
+        </tr><!-- cierre de fila -->
+    </table>
+    </section>
+    
+</body>
+</html>
